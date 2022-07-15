@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+* {
+    background-color: #FFC4E1;
+    font-family: 'Montserrat', sans-serif;
+}
+.theading {
+    color:#f542e3;
+    font-size: 25px;
+    font-weight: 800; 
+    margin-top: 10px;
+}
+.theading:hover {
+    background-color: #FFEF78;
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.search {
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    border-style: none;
+    font-size: 10px;
+    background-color:#FFF;
+}
+.btn, .qshop {
+    font-size: 10px;
+    background-color:#FFF;
+    border-style: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ff00f2;
+    color:  #ffffff;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.btn-basket, .btn-account {
+    font-size: 15px;
+    background-color:#FFF;
+    border-style: none;
+    padding: 10px;
+    background-color: #7027A0;
+    color:  #ffffff;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.nav {
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    padding: 5px;
+}
+.nav:hover {
+    background-color: #ff00f2;
+}
+.navigation {
+    padding: 10px;
+    border: 2px #ff33ff dashed;
+    margin-top: 30px;
+}
+.fav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+}
+.parent {
+    display: flex;
+    justify-content: space-around;
+}
+.details {
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    padding: 10px;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.sign-up {
+    font-size: 10px;
+    padding: 5px;
+}
+.details:hover {
+    background-color: #B1FFFD;
+}
+.fdetails {
+    display: flex;
+    flex-direction: column;
+}
+.subscribe {
+    padding: 5px;
+    border-radius: 10px;
+    width: 100px;
+    border-style: none;
+    font-size: 10px;
+    background-color:#FFF;
+}
+.s-btn {
+    font-size: 10px;
+    background-color:#FFF;
+    border-style: none;
+    padding: 3px;
+    border-radius: 10px;
+    background-color: #ff00f2;
+    color:  #ffffff;
+}
+.signup-heading {
+    font-size: 15px;
+}
+@media screen and (min-width: 600px) {
+    .heading {
+        display: flex;
+        justify-content: space-between;
+    }
+}
